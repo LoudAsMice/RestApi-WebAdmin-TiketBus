@@ -1,0 +1,125 @@
+CRITICAL - 2022-06-17 05:11:43 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\tiketbus\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('tiketcontroller...')
+#1 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('tiketcontroller...')
+#2 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tiketbus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-17 22:58:55 --> Allowed fields must be specified for model: App\Models\TiketbusModel
+#0 C:\xampp\htdocs\tiketbus\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Tike...')
+#1 C:\xampp\htdocs\tiketbus\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\tiketbus\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\tiketbus\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#4 C:\xampp\htdocs\tiketbus\app\Controllers\TiketController.php(36): CodeIgniter\BaseModel->save(Array)
+#5 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(832): App\Controllers\TiketController->pesan()
+#6 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiketController))
+#7 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tiketbus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-17 22:59:49 --> Allowed fields must be specified for model: App\Models\TiketbusModel
+#0 C:\xampp\htdocs\tiketbus\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Tike...')
+#1 C:\xampp\htdocs\tiketbus\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\tiketbus\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\tiketbus\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#4 C:\xampp\htdocs\tiketbus\app\Controllers\TiketController.php(36): CodeIgniter\BaseModel->save(Array)
+#5 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(832): App\Controllers\TiketController->pesan()
+#6 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiketController))
+#7 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tiketbus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-17 23:00:43 -->  required is not a valid rule.
+#0 C:\xampp\htdocs\tiketbus\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound(' required')
+#1 C:\xampp\htdocs\tiketbus\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('hp', 'hp', '08123456789', Array, Array)
+#2 C:\xampp\htdocs\tiketbus\system\BaseModel.php(1347): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 C:\xampp\htdocs\tiketbus\system\BaseModel.php(707): CodeIgniter\BaseModel->validate(Array)
+#4 C:\xampp\htdocs\tiketbus\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#5 C:\xampp\htdocs\tiketbus\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#6 C:\xampp\htdocs\tiketbus\app\Controllers\TiketController.php(37): CodeIgniter\BaseModel->save(Array)
+#7 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(832): App\Controllers\TiketController->pesan()
+#8 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiketController))
+#9 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tiketbus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-17 23:01:00 -->  required is not a valid rule.
+#0 C:\xampp\htdocs\tiketbus\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound(' required')
+#1 C:\xampp\htdocs\tiketbus\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('hp', 'hp', '08123456789', Array, Array)
+#2 C:\xampp\htdocs\tiketbus\system\BaseModel.php(1347): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 C:\xampp\htdocs\tiketbus\system\BaseModel.php(707): CodeIgniter\BaseModel->validate(Array)
+#4 C:\xampp\htdocs\tiketbus\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#5 C:\xampp\htdocs\tiketbus\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#6 C:\xampp\htdocs\tiketbus\app\Controllers\TiketController.php(37): CodeIgniter\BaseModel->save(Array)
+#7 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(832): App\Controllers\TiketController->pesan()
+#8 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiketController))
+#9 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tiketbus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-17 23:03:11 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(832): App\Controllers\TiketController->pesan()
+#1 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiketController))
+#2 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tiketbus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-17 23:04:03 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(832): App\Controllers\TiketController->pesan()
+#1 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiketController))
+#2 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tiketbus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-17 23:07:21 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(832): App\Controllers\TiketController->pesan()
+#1 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiketController))
+#2 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tiketbus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-17 23:09:18 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(832): App\Controllers\TiketController->pesan()
+#1 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiketController))
+#2 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tiketbus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-17 23:10:45 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(832): App\Controllers\TiketController->pesan()
+#1 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiketController))
+#2 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\tiketbus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-17 23:13:15 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tiketbus\app\Controllers\TiketController.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(832): App\Controllers\TiketController->pesan()
+#2 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiketController))
+#3 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tiketbus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-17 23:15:37 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tiketbus\app\Controllers\TiketController.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(832): App\Controllers\TiketController->pesan()
+#2 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiketController))
+#3 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tiketbus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-17 23:16:45 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tiketbus\app\Controllers\TiketController.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(832): App\Controllers\TiketController->pesan()
+#2 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiketController))
+#3 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tiketbus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-17 23:20:06 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\tiketbus\app\Controllers\TiketController.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(832): App\Controllers\TiketController->pesan()
+#2 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiketController))
+#3 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tiketbus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-17 23:21:55 --> Unknown column 'jumlah' in 'field list'
+CRITICAL - 2022-06-17 23:21:55 --> Unknown column 'jumlah' in 'field list'
+#0 C:\xampp\htdocs\tiketbus\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tiketbu...', 0)
+#1 C:\xampp\htdocs\tiketbus\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tiketbu...')
+#2 C:\xampp\htdocs\tiketbus\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tiketbu...')
+#3 C:\xampp\htdocs\tiketbus\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `tiketbu...', Array, false)
+#4 C:\xampp\htdocs\tiketbus\app\Controllers\TiketController.php(52): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(832): App\Controllers\TiketController->pesan()
+#6 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiketController))
+#7 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tiketbus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

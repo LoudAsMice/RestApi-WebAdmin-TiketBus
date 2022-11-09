@@ -1,0 +1,16 @@
+CRITICAL - 2022-06-06 23:18:23 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, array given, called in C:\xampp\htdocs\tiketbus\system\Model.php on line 728
+#0 C:\xampp\htdocs\tiketbus\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get(Array)
+#1 C:\xampp\htdocs\tiketbus\app\Controllers\Restful.php(27): CodeIgniter\Model->__call('get', Array)
+#2 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(832): App\Controllers\Restful->login()
+#3 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restful))
+#4 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tiketbus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-06 23:18:28 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, array given, called in C:\xampp\htdocs\tiketbus\system\Model.php on line 728
+#0 C:\xampp\htdocs\tiketbus\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get(Array)
+#1 C:\xampp\htdocs\tiketbus\app\Controllers\Restful.php(27): CodeIgniter\Model->__call('get', Array)
+#2 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(832): App\Controllers\Restful->login()
+#3 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Restful))
+#4 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tiketbus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

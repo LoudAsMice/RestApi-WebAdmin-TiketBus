@@ -1,0 +1,169 @@
+ERROR - 2022-06-25 09:54:58 --> Unknown column 'email' in 'where clause'
+CRITICAL - 2022-06-25 09:54:58 --> Unknown column 'email' in 'where clause'
+#0 C:\xampp\htdocs\tiketbus\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\tiketbus\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\tiketbus\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\tiketbus\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tiketbus\app\Models\UserModel.php(35): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\xampp\htdocs\tiketbus\app\Controllers\UserController.php(24): App\Models\UserModel->cekData(Array)
+#6 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#7 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tiketbus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-06-25 09:55:29 --> Unknown column 'email' in 'where clause'
+CRITICAL - 2022-06-25 09:55:29 --> Unknown column 'email' in 'where clause'
+#0 C:\xampp\htdocs\tiketbus\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\tiketbus\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\tiketbus\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\tiketbus\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tiketbus\app\Models\UserModel.php(35): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\xampp\htdocs\tiketbus\app\Controllers\UserController.php(24): App\Models\UserModel->cekData(Array)
+#6 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#7 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tiketbus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-06-25 09:55:39 --> Unknown column 'email' in 'where clause'
+CRITICAL - 2022-06-25 09:55:39 --> Unknown column 'email' in 'where clause'
+#0 C:\xampp\htdocs\tiketbus\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\tiketbus\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\tiketbus\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\tiketbus\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tiketbus\app\Models\UserModel.php(35): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\xampp\htdocs\tiketbus\app\Controllers\UserController.php(24): App\Models\UserModel->cekData(Array)
+#6 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#7 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tiketbus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-06-25 09:56:31 --> Unknown column 'email' in 'where clause'
+CRITICAL - 2022-06-25 09:56:31 --> Unknown column 'email' in 'where clause'
+#0 C:\xampp\htdocs\tiketbus\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\tiketbus\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\tiketbus\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\tiketbus\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tiketbus\app\Models\UserModel.php(35): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\xampp\htdocs\tiketbus\app\Controllers\UserController.php(24): App\Models\UserModel->cekData(Array)
+#6 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#7 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tiketbus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-06-25 10:04:34 --> Unknown column 'email' in 'where clause'
+CRITICAL - 2022-06-25 10:04:34 --> Unknown column 'email' in 'where clause'
+#0 C:\xampp\htdocs\tiketbus\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\tiketbus\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\tiketbus\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\tiketbus\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tiketbus\app\Models\UserModel.php(35): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\xampp\htdocs\tiketbus\app\Controllers\UserController.php(24): App\Models\UserModel->cekData(Array)
+#6 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#7 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tiketbus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-06-25 10:04:36 --> Unknown column 'email' in 'where clause'
+CRITICAL - 2022-06-25 10:04:36 --> Unknown column 'email' in 'where clause'
+#0 C:\xampp\htdocs\tiketbus\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\tiketbus\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\tiketbus\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\tiketbus\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tiketbus\app\Models\UserModel.php(35): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\xampp\htdocs\tiketbus\app\Controllers\UserController.php(24): App\Models\UserModel->cekData(Array)
+#6 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#7 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tiketbus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-06-25 10:10:13 --> Unknown column 'email' in 'where clause'
+CRITICAL - 2022-06-25 10:10:14 --> Unknown column 'email' in 'where clause'
+#0 C:\xampp\htdocs\tiketbus\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\tiketbus\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\tiketbus\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\tiketbus\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tiketbus\app\Models\UserModel.php(35): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\xampp\htdocs\tiketbus\app\Controllers\UserController.php(24): App\Models\UserModel->cekData(Array)
+#6 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#7 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tiketbus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-06-25 10:11:56 --> Unknown column 'email' in 'where clause'
+CRITICAL - 2022-06-25 10:11:56 --> Unknown column 'email' in 'where clause'
+#0 C:\xampp\htdocs\tiketbus\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\tiketbus\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\tiketbus\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\tiketbus\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tiketbus\app\Models\UserModel.php(35): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\xampp\htdocs\tiketbus\app\Controllers\UserController.php(24): App\Models\UserModel->cekData(Array)
+#6 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#7 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tiketbus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-06-25 10:21:25 --> Unknown column 'email' in 'where clause'
+CRITICAL - 2022-06-25 10:21:25 --> Unknown column 'email' in 'where clause'
+#0 C:\xampp\htdocs\tiketbus\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\tiketbus\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\tiketbus\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\tiketbus\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tiketbus\app\Models\UserModel.php(35): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\xampp\htdocs\tiketbus\app\Controllers\UserController.php(24): App\Models\UserModel->cekData(Array)
+#6 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#7 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tiketbus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-06-25 10:21:38 --> Unknown column 'email' in 'where clause'
+CRITICAL - 2022-06-25 10:21:38 --> Unknown column 'email' in 'where clause'
+#0 C:\xampp\htdocs\tiketbus\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\tiketbus\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\tiketbus\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\tiketbus\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tiketbus\app\Models\UserModel.php(35): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\xampp\htdocs\tiketbus\app\Controllers\UserController.php(24): App\Models\UserModel->cekData(Array)
+#6 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#7 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tiketbus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-06-25 10:22:02 --> Unknown column 'email' in 'where clause'
+CRITICAL - 2022-06-25 10:22:02 --> Unknown column 'email' in 'where clause'
+#0 C:\xampp\htdocs\tiketbus\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\tiketbus\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\tiketbus\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\tiketbus\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tiketbus\app\Models\UserModel.php(35): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\xampp\htdocs\tiketbus\app\Controllers\UserController.php(24): App\Models\UserModel->cekData(Array)
+#6 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#7 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tiketbus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-06-25 10:23:20 --> Unknown column 'email' in 'where clause'
+CRITICAL - 2022-06-25 10:23:20 --> Unknown column 'email' in 'where clause'
+#0 C:\xampp\htdocs\tiketbus\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\tiketbus\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\tiketbus\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\tiketbus\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tiketbus\app\Models\UserModel.php(35): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\xampp\htdocs\tiketbus\app\Controllers\UserController.php(24): App\Models\UserModel->cekData(Array)
+#6 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#7 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tiketbus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-06-25 10:23:51 --> Unknown column 'email' in 'where clause'
+CRITICAL - 2022-06-25 10:23:51 --> Unknown column 'email' in 'where clause'
+#0 C:\xampp\htdocs\tiketbus\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\tiketbus\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\tiketbus\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\tiketbus\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tiketbus\app\Models\UserModel.php(35): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\xampp\htdocs\tiketbus\app\Controllers\UserController.php(24): App\Models\UserModel->cekData(Array)
+#6 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(832): App\Controllers\UserController->login()
+#7 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 C:\xampp\htdocs\tiketbus\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tiketbus\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
